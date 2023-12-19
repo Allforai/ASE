@@ -26,6 +26,8 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 # Isaac Gym
+# https://github.com/NVIDIA-Omniverse/IsaacGymEnvs?tab=readme-ov-file
+
 import os
 
 from utils.config import set_np_formatting, set_seed, get_args, parse_sim_params, load_cfg
