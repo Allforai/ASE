@@ -27,7 +27,8 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 # Isaac Gym
 # https://github.com/NVIDIA-Omniverse/IsaacGymEnvs?tab=readme-ov-file
-
+import pydevd_pycharm
+pydevd_pycharm.settrace('10.8.31.54', port=18887, stdoutToServer=True, stderrToServer=True)
 import os
 
 from utils.config import set_np_formatting, set_seed, get_args, parse_sim_params, load_cfg
